@@ -59,7 +59,8 @@
     margin-bottom: 17px;
 
     input {
-      flex: 1;
+      flex: 1 0 0;
+      min-width: 48.9%;
       height: 40px;
       margin: 3px;
       padding-left: 12px;
