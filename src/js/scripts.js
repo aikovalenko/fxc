@@ -5,7 +5,7 @@ new TableSort(document.getElementById('js-sorting'));
 var scroll = new SmoothScroll('a[href*="#"]');
 
 
-document.getElementById('submit').addEventListener('click', function() {
+document.getElementById('submit').addEventListener('click', function(event) {
     event.preventDefault();
 
     var regexpTel = '^[-+]?[0-9]+$',
