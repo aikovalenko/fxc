@@ -298,8 +298,10 @@ article {
   }
 
   &:disabled {
-    cursor: default;
+    cursor: not-allowed;
     background-color: #7d7d7d;
+    border-bottom: 3px solid #7d7d7d;
+    opacity: .9;
   }
 }
 
