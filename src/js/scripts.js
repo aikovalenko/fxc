@@ -4,7 +4,8 @@ new TableSort(document.getElementById('js-sorting'));
 
 var scroll = new SmoothScroll('a[href*="#"]');
 
-function validateForm() {
+
+document.getElementById('submit').addEventListener('click', function() {
     event.preventDefault();
 
     var regexpTel = '^[-+]?[0-9]+$',
@@ -74,4 +75,4 @@ function validateForm() {
     } else console.log('invalid');
 
     return false;
-}
+});
