@@ -1,0 +1,130 @@
+.page-footer {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333;
+  &--light {
+    background-color: #f6f8fa;
+  }
+
+  //top part start
+  &__top {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  &__company {
+    margin-bottom: 25px;
+  }
+  &__address {
+    margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  &__social {
+    margin-bottom: 5px;
+    font-size: 0;
+  }
+  &__social-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__disclaimers {
+    font-size: 0;
+  }
+  &__disclaimer-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #ff8000;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    span {
+      display: inline;
+      padding-bottom: 1px;
+      border-bottom: 1px solid transparent;
+      transition: all .2s ease;
+    }
+    &:hover {
+      span {
+        border-bottom: 1px solid #ff8000;
+        transition: all .2s ease;
+      }
+    }
+  }
+  //top part end
+
+  //middle part start
+  &__middle {
+    margin-bottom: 30px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px dotted #999;
+    border-top: 1px dotted #999;
+  }
+}
+
+.pay-methods-title {
+  margin-bottom: 20px;
+}
+
+.flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__item {
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
+.secure-methods {
+
+  &__item {
+    width: 120px;
+    height: 36px;
+    margin-bottom: 10px;
+  }
+}
+
+
+.pay-methods {
+
+  &__item {
+    width: 100px;
+    height: 36px;
+    margin-bottom: 10px;
+  }
+  .yandex-pic {
+    img {
+      margin-top: -3px;
+    }
+  }
+  .qiwi-pic {
+    img {
+      margin-top: 3px;
+    }
+  }
+}

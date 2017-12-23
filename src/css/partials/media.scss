@@ -1,0 +1,17 @@
+// background-position for hero
+@media screen and (max-width: em(650px, 16px)) {
+  .hero {
+    background-position: -300px center;
+  }
+}
+
+// for mobile
+@media screen and (max-width: em(414px, 16px)) {
+  h1 {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .awards {
+    margin-bottom: 40px;
+  }
+}

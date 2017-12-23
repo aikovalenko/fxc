@@ -1,0 +1,93 @@
+.hero {
+  width: 100%;
+  min-height: 706px;
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header-logos {
+  padding-top: 20px;
+  padding-bottom: 75px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header-title {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #fff;
+
+  &__hint {
+    font-size: 24px;
+    font-weight: 200;
+    //line-height: 55px;
+  }
+}
+
+.awards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @include push--auto;
+  margin-bottom: 90px;
+
+  &__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+.form {
+
+  &--registration {
+    max-width: 564px;
+    padding-bottom: 40px;
+    @include push--auto;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 17px;
+
+    input {
+      flex: 1;
+      height: 40px;
+      margin: 3px;
+      padding-left: 12px;
+      padding-right: 12px;
+      line-height: 40px;
+      font-size: 18px;
+      font-family: 'Roboto', Arial, sans-serif;
+      font-weight: normal;
+      border: none;
+      border-radius: 3px;
+      box-sizing: border-box;
+      transition: all .3s ease;
+
+      @include placeholder {
+        color: #999;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-weight: normal;
+      }
+    }
+  }
+
+  &__submit {
+    text-align: center;
+  }
+}
+
+.success-alert {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}

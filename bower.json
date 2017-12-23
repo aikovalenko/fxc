@@ -1,0 +1,20 @@
+{
+  "name": "fxc",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "aikovalenko <kovalenko.ai@yandex.ru>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/aikovalenko/fxc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^7.0.0"
+  }
+}
