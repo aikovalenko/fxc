@@ -168,7 +168,8 @@ a[x-apple-data-detectors] {
         content: attr(data-num);
         position: absolute;
         top: 0;
-        left: 18px;
+        left: 14px;
+        width: 20px;
         font-size: 18px;
         z-index: 2;
         will-change: transform;
